@@ -1,0 +1,15 @@
+﻿2.1.4b
+Changelog:
+-Fixed FBX Animation ranges bug.
+-Fixed GetTriLibPreferences Resources loading bug.
+-Fixed long names replacement bug.
+-Fixed mobile input system.
+-Fixed stb_image issues.
+-Updated stb_image.
+-Fixed StandaloneFileBrowser on iOS.
+-Refactored FBX ASCII reader.
+-Removed DAE Importer options in TriLib Settings (reserved for a future release).
+-Added MergeAnimations sample. This sample uses a custom AnimationClipMapper to merge AnimationClip tuples into one.
+-Added MaxTexturesResolution Asset Loader Option. Use this field to change the maximum Texture resolutions.
+-Added back the AssetLoaderOptions.OptimizeMeshes functionality.
+-Added MergeSingleChild Asset Loader Option. Turn on this field to merge single child models into a single GameObject.

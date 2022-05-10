@@ -1,0 +1,12 @@
+Sprache;;;;;;;;
+Name;Scene;Schriftgröße;Schriftstyle;Deutsch;Französisch;Englisch;Russisch;japanisch
+Feld1;intro;36;none;de1;fr1;en1;ru1;ju1
+Feld2;intro;36;none;de2;fr2;en2;ru2;j
+Feld3;maschine1;36;none;de3;fr3;en3;ru3;ru3
+Feld4;maschine1;30;none;de4;fr4;en4;ru4;ru4
+Feld5;maschine2;30;none;de5;fr5;en5;ru5;ru5
+Feld6;maschine2;30;bold;de6;fr6;en6;ru6;ru6
+Feld7;tutorial;30;bold;de7;fr7;en7;ru7;ru7
+Feld8;tutorial;30;bold;de8;fr8;en8;ru8;ru8
+Feld9;tutorial;36;bold;de9;fr9;en9;ru9;ru9
+Feld10;tutorial;36;bold;de10;fr10;en10;ru10;ru10
