@@ -65,6 +65,11 @@ public class PlayerController : MonoBehaviour
         lookY = LookVector.y * lookSpeed * 0.1f;
     }
 
+    public void OnHover(InputAction.CallbackContext context)
+    {
+        float hoverAxis = context.ReadValue<float>();
+        movementY = hoverAxis * speed * 0.1f;
+    }
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -97,12 +102,13 @@ public class PlayerController : MonoBehaviour
         }
     }    
     
-    public void OnJump(InputAction.CallbackContext context)
+    /* public void OnJump(InputAction.CallbackContext context)
     {
         if (context.performed && isGrounded)
             movementY = jumpHight; 
 
-    }
+    } */
+    
     public void OnInteract(InputAction.CallbackContext context)
     {
 
@@ -144,7 +150,7 @@ public class PlayerController : MonoBehaviour
             body.Rotate(Vector3.up, lookX);
         }
 
-        movementY += gravity * Time.deltaTime;
+        // movementY += gravity * Time.deltaTime;
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
